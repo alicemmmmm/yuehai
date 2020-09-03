@@ -1,0 +1,36 @@
+server:
+  port: 8081
+#  servlet:
+#    path: "/"
+#logging:
+#  level:
+#    cn.alicem: debug
+spring:
+  application:
+    name: item-service
+  datasource:
+    driver.class.name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/yuehai?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=false
+    username: root
+    password: admin
+#mybatis:
+#  type-aliases-package: cn.alicem.user.pojo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  instance:
+#    lease-renewal-interval-in-seconds: 5 #5秒一次心跳
+#    lease-expiration-duration-in-seconds: 10 #10秒即过期
+#    instance-id: ${spring.application.name}:${server.port}
+
+#如果出现拉取服务ip地址变成外网地址则
+#  instance:
+#    prefer-ip-address: true
+#    ip-address: 127.0.0.1
+
+
+

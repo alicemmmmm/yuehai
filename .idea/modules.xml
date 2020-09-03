@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/yh-common/yh-common.iml" filepath="$PROJECT_DIR$/yh-common/yh-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-geteway/yh-geteway.iml" filepath="$PROJECT_DIR$/yh-geteway/yh-geteway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-item/yh-item.iml" filepath="$PROJECT_DIR$/yh-item/yh-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-item/yh-item-interface/yh-item-interface.iml" filepath="$PROJECT_DIR$/yh-item/yh-item-interface/yh-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-item/yh-item-service/yh-item-service.iml" filepath="$PROJECT_DIR$/yh-item/yh-item-service/yh-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-registry/yh-registry.iml" filepath="$PROJECT_DIR$/yh-registry/yh-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh-upload/yh-upload.iml" filepath="$PROJECT_DIR$/yh-upload/yh-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuehai.iml" filepath="$PROJECT_DIR$/yuehai.iml" />
+    </modules>
+  </component>
+</project>

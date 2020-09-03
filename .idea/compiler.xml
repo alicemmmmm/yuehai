@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yh-common" />
+        <module name="yh-geteway" />
+        <module name="yh-item-interface" />
+        <module name="yh-item-service" />
+        <module name="yh-registry" />
+        <module name="yh-upload" />
+        <module name="yhgeteway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yh-common" target="1.8" />
+      <module name="yh-geteway" target="1.8" />
+      <module name="yh-item" target="1.8" />
+      <module name="yh-item-interface" target="1.8" />
+      <module name="yh-item-service" target="1.8" />
+      <module name="yh-registry" target="1.8" />
+      <module name="yh-upload" target="1.8" />
+      <module name="yhgeteway" target="1.8" />
+      <module name="yuehai" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
